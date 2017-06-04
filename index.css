@@ -5,7 +5,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -28,4 +28,9 @@
 }
 #homepage {
     font-family: helvetica;
+    margin-top: 80px;
+}
+#button {
+    font-family: helvetica;
+    font-size: 20px;
 }
