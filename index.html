@@ -1,29 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+  <head>
+      <title>Home</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
         <div class="topnav" id="myTopnav">
-             <a href="#home">Home</a>
-             <a href="#news">News</a>
-             <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+           <a href="#home">Contact</a>
+           <a href="#news">Education</a>
+           <a href="#contact">Experience</a>
+           <a href="#about">Home</a>
         </div>
-</head>
-<body>
-    <div class="homepage" id="homepage">
-        <img src="ryan_gosling.png">
-        <h1>Ryan Golsing</h1>
-        <p>Hotest man on earth</p>
-        <button type="button">Click Me!</button>
-    </div>
-<style>
-  body {
-    text-align: center;
-    background-image: url(syd-wachs-120737.jpg);
-    color: white;
-    font-family: helvetica;
-  }
+  </head>
+  <body>
+      <div id="homepage">
+          <img src="ryan_gosling.png">
+          <h1 id="name">Ryan Gosling</h1>
+          <p id="title">Hottest man on earth</p>
+          <form>
+            <input class="button" value="Drop me a line!" onclick="window.location.href='https://twitter.com/ryangosling'" />
+          </form>
+      </div>
+  </body>
+    <style>
+    body {
+        background-image: url(syd-wachs-120737.jpg);
+        background-size: 100%;
+    }
+      #homepage {
+        text-align: center;
+        color: white;
+        font-family: helvetica;
+      }
+      #name {
+        font-size: 60px;
+        margin-top: 10px;
+      }
+      #title {
+        font-size: 28px;
+        margin-top: -28px;
+        font-weight: lighter;
+      }
+      .button {
+        display: inline-block;
+        padding: 15px 0px;
+        font-size: 16px;
+        font-weight: bolder;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        margin-top: 16px;
+      }
+
+      .button:hover {background-color: #3e8e41}
+
+      .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
     </style>
-</body>
+  <footer>
+    <div class="footer">Created by <strong>MMK sudents</strong>.</div>
+  </footer>
 </html>
