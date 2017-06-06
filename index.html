@@ -72,11 +72,19 @@
           box-shadow: 5px 5px 5px #000000;
           }
           .img-rounded {
-    	 border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
+display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
           }
+          .img-rounded img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
 
           </style>
 
