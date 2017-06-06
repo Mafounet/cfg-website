@@ -1,0 +1,19 @@
+body {
+      background-image: url(Blackboard.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      }
+.thumbnail {
+  height: 350px;
+  width: 160px;
+}
+h3{
+  color: black;
+}
+div.thumbnail{
+  opacity: 50;
+}
+.mastfoot{
+  position: relative;
+}
