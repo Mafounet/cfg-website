@@ -28,6 +28,50 @@
     color: white;
 }
 /* BODY */
+body {
+  background-image: url(syd-wachs-120737.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  }
+  #homepage {
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+  }
+  #name {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+  #title {
+    font-size: 28px;
+    margin-top: -28px;
+    font-weight: lighter;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 16px;
+  }
+
+  .button:hover {background-color: #3e8e41}
+
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 #homepage {
     font-family: helvetica;
     margin-top: 80px;
